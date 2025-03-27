@@ -1,0 +1,16 @@
+Entidade: Usuário
+Atributos: Nome, Data_Nascimento
+
+Entidade: Livro
+Atributos: Título, Autor
+
+Entidade: Funcionário
+Atributos: Nome, Cargo
+
+Entidade: Empréstimo
+Atributos: Data_Emprestimo, Data_Devolucao
+
+Relacionamentos:
+Usuário realiza Empréstimos (1:N)
+Funcionário gerencia Empréstimos (1:N)
+Empréstimos incluem Livros (N:M)
